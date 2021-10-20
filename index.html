@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Scss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <title>Mobile Shopping</title>
+    <script type="text/javascript">
+
+    function applemobile (){
+    var checkbox = document.getElementById('apple')
+    var apple_list = document.getElementById('apple_list')
+
+    if(checkbox.checked == true){
+        apple_list.style.display = "flex";
+    } else{
+        apple_list.style.display = "none";
+    }
+}
+function oneplusmobile (){
+    var checkbox = document.getElementById('oneplus')
+    var oneplus_list = document.getElementById('oneplus_list')
+
+    if(checkbox.checked == true){
+        oneplus_list.style.display = "flex";
+    } else{
+        oneplus_list.style.display = "none";
+    }
+}
+function oppomobile (){
+    var checkbox = document.getElementById('oppo')
+    var oppo_list = document.getElementById('oppo_list')
+
+    if(checkbox.checked == true){
+        oppo_list.style.display = "flex";
+    } else{
+        oppo_list.style.display = "none";
+    }
+}
+function vivomobile (){
+    var checkbox = document.getElementById('vivo')
+    var vivo_list = document.getElementById('vivo_list')
+
+    if(checkbox.checked == true){
+        vivo_list.style.display = "flex";
+    } else{
+        vivo_list.style.display = "none";
+    }
+}
+    </script>
+</head>
+<body>
+
+    <div class="container">
+      <div class="banner">
+        <img src="banner.jpg">
+      </div> 
+      </div>
+      <div class="container">
+        <div class="left">
+    <section id="checkboxlist">
+        <h4>Mobile Brand</h4>
+        <hr>
+  <form action="" class="form">
+      <li><input type="checkbox" id="apple" onclick="applemobile()">
+        <label for="apple">Apple</label></li>
+      <li><input type="checkbox" id="oneplus" onclick="oneplusmobile()">
+        <label for="oneplus">Oneplus</label></li>
+      <li><input type="checkbox" id="oppo" onclick="oppomobile()">
+        <label for="oppo">Oppo</label></li>
+      <li><input type="checkbox" id="vivo" onclick="vivomobile()">
+        <label for="vivo">Vivo</label></li>
+  </form>
+    </section>
+</div>
+
+<div class="right">
+    <section id="mobile_list">
+        <!--Apple list-->
+        <div id="apple_list" style="display: none;">
+            <div class="apple1">
+                <img src="https://m.media-amazon.com/images/I/71i2XhHU3pL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+                <h4>Apple iPhone 11 (128GB) - Black  <span>₹46,999</span></h4>
+            </div>
+          <div class="apple1">
+            <img src="https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+            <h4>New Apple iPhone 12 (128GB) - Blue  <span>₹70,900 </span></h4>
+            </div>
+            <div class="apple1">
+            <img src="https://m.media-amazon.com/images/I/61l9ppRIiqL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+            <h4>Apple iPhone 13 (128GB) - Pink  <span>₹79,900 </span></h4>
+          </div>
+            
+       <div class="apple1">
+            <img src="https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+            <h4>Apple iPhone XR (128GB) - Blue  <span>₹37,999 </span> </h4>
+          </div>
+     </div>
+     <div id="oneplus_list" style="display: none;">
+       <div class="oneplus1">
+         <img src="https://m.media-amazon.com/images/I/71KVeQql77S._AC_UY327_FMwebp_QL65_.jpg" alt="">
+         <h4>OnePlus Nord 2 5G (Blue Haze, 8GB RAM, 128GB Storage) <span>₹29,999</span></h4>
+       </div>
+              <div class="oneplus1">
+         <img src="https://m.media-amazon.com/images/I/61TnX0PmqES._AC_UY327_FMwebp_QL65_.jpg" alt="">
+         <h4>OnePlus Nord CE 5G (Charcoal Ink, 8GB RAM, 128GB Storage) <span>₹24,999</span></h4>
+       </div>
+         <div class="oneplus1">
+         <img src="https://m.media-amazon.com/images/I/61IwksZ-DGL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+         <h4>OnePlus 9R 5G (Lake Blue, 8GB RAM, 128GB Storage) <span>₹36,999</span></h4>
+       </div>
+       <div class="oneplus1">
+         <img src="https://m.media-amazon.com/images/I/61MJilnI5pL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+         <h4>OnePlus 9 5G (Winter Mist, 12GB RAM, 256GB Storage)
+ <span>₹51,999 </span></h4>
+       </div>
+     </div>
+     <div id="oppo_list" style="display:none">
+       <div class="oppo1">
+         <img src="https://m.media-amazon.com/images/I/61RQyzwnsBL._AC_UL480_QL65_.jpg" alt="">
+         <h4>Oppo A16 (Pearl Blue, 4GB RAM, 64GB Storage) | Flat Rs. 2750 Citibank and Axis Discount <span>₹13,490.00 </span></h4>
+       </div>
+        <div class="oppo1">
+         <img src="https://m.media-amazon.com/images/I/71KCwNV6MuL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+         <h4>OPPO A74 5G (Fluid Black,6GB RAM,128GB Storage) - 5G Android Smartphone | 5000 mAh Battery | 18W Fast Charge | 90Hz LCD Display <span> ₹15,990.00</span></h4>
+       </div>
+        <div class="oppo1">
+         <img src="https://m.media-amazon.com/images/I/71AHtKejSlL._AC_UL480_QL65_.jpg" alt="">
+         <h4> OPPO A31 (Lake Green, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers<span>₹11,490 </span></h4>
+       </div>
+        <div class="oppo1">
+         <img src="https://m.media-amazon.com/images/I/71KCwNV6MuL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+         <h4>OPPO A31 (Mystery Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers<span>₹11,490 </span></h4>
+       </div>
+     </div>
+     <div id="vivo_list" style="display: none;">
+        <div class="vivo1">
+          <img src="https://m.media-amazon.com/images/I/51fiZ7il7hS._AC_UY327_QL65_.jpg" alt="">
+          <h4>Vivo Y20G 2021 (Purist Blue, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers <span>₹13,990</span></h4>
+        </div>
+               <div class="vivo1">
+          <img src="https://m.media-amazon.com/images/I/511oJE35CxS._AC_UY327_QL65_.jpg" alt="">
+          <h4>Vivo Y73 (Diamond Flare, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers <span>₹20,990</span></h4>
+        </div>
+          <div class="vivo1">
+          <img src="https://m.media-amazon.com/images/I/61HuJbCHhCS._AC_UY327_QL65_.jpg" alt="">
+          <h4>Vivo V21e 5G (Sunset Jazz, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers <span>₹24,990</span></h4>
+        </div>
+        <div class="vivo1">
+          <img src="https://m.media-amazon.com/images/I/511oJE35CxS._AC_UY327_QL65_.jpg" alt="">
+          <h4>Vivo Y33s (Middday Dream, 8GB RAM, 128GB Stoarge) with No Cost EMI/Additional Exchange Offers
+  <span>₹18,990</span></h4>
+        </div>
+      </div>
+  </section>
+</div>
+</div>
+    
+</body>
+</html>

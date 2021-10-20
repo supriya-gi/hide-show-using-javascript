@@ -1,0 +1,75 @@
+$full_width: 100%;
+$color: #B12704;
+$font:14px;
+
+
+@mixin fullscreen{
+    width: $full_width;
+    display: flex;
+    box-sizing: border-box;
+}
+@mixin container_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin form_content {
+   list-style: none;
+   font-size: 19px;
+}
+
+//  Element
+body{
+    font-family: 'Nunito', sans-serif;  
+    background-color: lightgrey;
+}
+.container{
+    @include fullscreen();
+}
+.left{
+    width: 20%;
+    float: left;
+    border-right: 2px solid #bdbdbddb;
+    
+}
+.form li{
+    @include form_content();
+}
+.right{
+    width: 90%;
+    float: right;
+    box-sizing: border-box;
+   padding: 10px 20px;
+
+}
+#mobile_list  {
+    padding: 40px 30px;
+  }
+  img{
+      width: $full_width;
+
+  }
+  .apple1{
+    padding: 20px 0px;
+    width: 20%;
+    margin: 20px 20px;
+    text-align: left;
+    border-bottom: 1px solid white;
+  }
+
+  .oneplus1{
+    @extend .apple1;
+  }
+  .oppo1{
+      @extend .apple1;
+  }
+  .vivo1{
+      @extend .apple1;
+  }
+  h4{
+      font-size: $font;
+      line-height: 1.8;
+      span{
+          color: $color;
+      }
+  }

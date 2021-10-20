@@ -1,0 +1,60 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: lightgrey;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.banner{
+  width:100%;
+}
+.left {
+  width: 20%;
+  float: left;
+  border-right: 2px solid #bdbdbddb;
+}
+
+.form li {
+  list-style: none;
+  font-size: 19px;
+}
+
+.right {
+  width: 90%;
+  float: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+#mobile_list {
+  padding: 40px 30px;
+}
+
+img {
+  width: 100%;
+}
+
+.apple1, .oneplus1, .oppo1, .vivo1 {
+  padding: 20px 0px;
+  width: 20%;
+  margin: 20px 20px;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+h4 {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+h4 span {
+  color: #B12704;
+}
+/*# sourceMappingURL=style.css.map */
